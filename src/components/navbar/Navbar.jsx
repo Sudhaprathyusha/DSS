@@ -13,7 +13,7 @@ const Menu = () => (
     <>
     <p><a href="#home">Home</a></p>
     <p><a href="#whatDSS">What is DSS</a></p>
-    <p><a href="http://localhost:3001/dashboard">Students Records</a></p>
+    <p><a href={process.env.REACT_APP_GUI_URL} target="_blank">Students Records</a></p>
     <p><a href="#features">Research Projects</a></p>
     <p><a href="#blog">Library</a></p>
     </>
